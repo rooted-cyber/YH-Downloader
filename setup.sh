@@ -52,7 +52,7 @@ caa() {
 cat >> $PREFIX/bin/yth << EOF
 #!/data/data/com.termux/files/usr/bin/sh
 cd ~/YH-Downloader
-bash download.sh
+bash DOWNLOADER.sh
 EOF
 }
 fr () {
