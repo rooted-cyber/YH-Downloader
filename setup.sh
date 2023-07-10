@@ -54,6 +54,7 @@ cat >> $PREFIX/bin/yth << EOF
 cd ~/YH-Downloader
 bash DOWNLOADER.sh
 EOF
+chmod 755 $PREFIX/bin/yth
 }
 fr () {
 cd ~/YH-Downloader/file
