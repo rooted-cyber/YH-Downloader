@@ -1,6 +1,6 @@
 as() {
 apt update
-apt upgrade
+apt upgrade -y
 termux-setup-storage
 }
 fix() {
