@@ -1,7 +1,7 @@
 ```
 cd $HOME
 apt update && apt upgrade
-apt install git python python-pip.figlet toilet ffmpeg -y
+apt install git python python-pip figlet toilet ffmpeg -y
 pip install -U yt-dlp
 git clone https://github.com/rooted-cyber/YH-Downloader
 cd YH-Downloader
