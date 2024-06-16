@@ -17,7 +17,7 @@ if [[ -e $PREFIX/bin/python ]];then
 ab
 else
 ac
-apt install python python-pip -y > /dev/null 2>&1
+apt install ffmpeg python python-pip -y
 ab
 fi
 }
